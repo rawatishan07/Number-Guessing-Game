@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right, purple, blue);
+}
+#box{
+    height: 620px;
+    width: 750px;
+    border: 5px solid black;
+    position: relative;
+    top: 80px;
+    left: 470px;
+    text-align: center;
+    background-color:  rgb(167, 230, 255);
+}
+#input{
+    width: 100px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+#btn{
+    padding: 15px 20px;
+    background-color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(170, 79, 255);
+    transition: 0.5s;
+}
+.sen1{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
