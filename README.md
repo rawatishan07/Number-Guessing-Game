@@ -32,7 +32,6 @@ A simple and interactive number guessing game built using **HTML, CSS, and JavaS
 ---
 
 ## 💡 Future Improvements
-- Add a **reset/restart button**  
 - Limit number of attempts (difficulty levels)  
 - Add sound effects or animations  
 - Make it mobile responsive  
