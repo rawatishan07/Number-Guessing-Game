@@ -5,6 +5,7 @@ let attempt = 0
 
 let num = document.getElementById("input")
 let btn = document.getElementById("btn")
+let btn1 = document.getElementById("btn1")
 
 btn.onclick = function() {
     let userGuess = Number(num.value)
@@ -32,4 +33,9 @@ btn.onclick = function() {
         document.getElementById("guess").textContent = `Attempts: ${attempt}`
         document.getElementById("guess").style.fontSize = "40px"
     }
+}
+btn1.onclick = function(){
+    attempt = 0
+    document.getElementById("guess").textContent = " "
+    document.getElementById("output").textContent = " "
 }
