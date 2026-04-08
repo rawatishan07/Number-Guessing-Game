@@ -17,6 +17,12 @@ body{
     font-size: 40px;
     text-align: center;
 }
+#button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 #btn{
     padding: 15px 20px;
     background-color: blueviolet;
@@ -26,7 +32,21 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+#btn1{
+    padding: 15px 20px;
+    background-color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 #btn:hover{
+    background-color: rgb(170, 79, 255);
+    transition: 0.5s;
+}
+#btn1:hover{
     background-color: rgb(170, 79, 255);
     transition: 0.5s;
 }
