@@ -1,4 +1,4 @@
-let number = Math.trunc(Math.random() * 100)
+let number = Math.floor(Math.random() * 100) + 1
 console.log(number)
 
 let attempt = 0
@@ -18,6 +18,8 @@ btn.onclick = function() {
         document.getElementById("guess").style.fontSize = "40px"
         document.getElementById("number").textContent = `The number is ${number}`
         document.getElementById("number").style.fontSize = "40px"
+        document.getElementById("box").style.height = "620px"
+
     }
     else if (userGuess > number) {
         attempt++
@@ -35,7 +37,11 @@ btn.onclick = function() {
     }
 }
 btn1.onclick = function(){
+    number = Math.floor(Math.random() * 100) + 1
+    console.log(number)
     attempt = 0
     document.getElementById("guess").textContent = " "
     document.getElementById("output").textContent = " "
+    document.getElementById("number").textContent = " "
+    document.getElementById("box").style.height = "400px"
 }
