@@ -27,6 +27,9 @@ btn.onclick = function() {
         document.getElementById("output").style.fontSize = "40px"
         document.getElementById("guess").textContent = `Attempts: ${attempt}`
         document.getElementById("guess").style.fontSize = "40px"
+        document.getElementById("number").style.fontSize = "40px"
+        document.getElementById("box").style.height = "620px"
+        
     }
     else if (userGuess < number) {
         attempt++
@@ -34,6 +37,9 @@ btn.onclick = function() {
         document.getElementById("output").style.fontSize = "40px"
         document.getElementById("guess").textContent = `Attempts: ${attempt}`
         document.getElementById("guess").style.fontSize = "40px"
+        document.getElementById("number").style.fontSize = "40px"
+        document.getElementById("box").style.height = "620px"
+
     }
 }
 btn1.onclick = function(){
